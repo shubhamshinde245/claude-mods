@@ -12,10 +12,19 @@
       "name": "usage-meter",
       "source": "./plugins/usage-meter",
       "description": "Plan limits, time-to-limit pace, session cost, tokens, cache hit rate, context and model in the band above the prompt",
-      "version": "0.1.0",
-      "author": { "name": "Shubham Shinde" },
+      "version": "1.0.0",
+      "author": {
+        "name": "Shubham Shinde"
+      },
       "license": "MIT",
-      "keywords": ["usage", "rate-limits", "cost", "tokens", "context", "status"],
+      "keywords": [
+        "usage",
+        "rate-limits",
+        "cost",
+        "tokens",
+        "context",
+        "status"
+      ],
       "category": "productivity"
     }
   ]

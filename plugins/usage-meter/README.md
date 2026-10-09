@@ -48,6 +48,10 @@ Requires a Claude Code version with function-hook plugins (built and tested on 2
 - Token totals count from when the mod loads; turns before that aren't included. They survive a mod reload but start over when Claude Code restarts.
 - The effort level appears after the first request of the session.
 
+## Privacy
+
+usage-meter only reads figures Claude Code already has for the current session: rate-limit percentages and reset times, cost, token counts, context fill, model and effort level. It makes no network requests, runs no commands, reads no files and sends nothing anywhere. Everything it keeps is held in the session's own plugin state and is gone when Claude Code restarts.
+
 ## License
 
 MIT

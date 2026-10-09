@@ -1,6 +1,7 @@
 {
   "name": "usage-meter",
-  "version": "0.1.0",
+  "displayName": "Usage Meter",
+  "version": "1.0.0",
   "description": "Plan limits, time-to-limit pace, session cost, tokens, cache hit rate, context and model in the band above the prompt",
   "author": {
     "name": "Shubham Shinde",
@@ -9,6 +10,13 @@
   "homepage": "https://github.com/shubhamshinde245/claude-mods/tree/main/plugins/usage-meter",
   "repository": "https://github.com/shubhamshinde245/claude-mods",
   "license": "MIT",
-  "keywords": ["usage", "rate-limits", "cost", "tokens", "context", "status"],
+  "keywords": [
+    "usage",
+    "rate-limits",
+    "cost",
+    "tokens",
+    "context",
+    "status"
+  ],
   "types": "./types/index.d.ts"
 }
