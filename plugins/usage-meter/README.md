@@ -4,7 +4,7 @@ A Claude Code mod that shows your plan usage and session spend in the band above
 
 ![usage-meter in a Claude Code session: session and weekly limits on the first line; model, effort, context, cost, tokens and an amber cache hit rate on the second](screenshot.png)
 
-The text below shows the same band with the pace projection and warning colours visible:
+Later in a busy window, with the pace projection showing:
 
 ```
 Session 82% · resets in 2h 14m · ~48m to limit at this pace   Week 71% · resets Thu 9am
