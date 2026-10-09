@@ -12,6 +12,12 @@ Claude Code mods by Shubham Shinde.
 
 Install one with `/plugin install <mod>@shubham-mods`.
 
+Or do both in one line from your terminal. This installs for your user, so the mod works in the Claude Code CLI and in Claude Desktop's Code tab:
+
+```sh
+claude plugin marketplace add shubhamshinde245/claude-mods && claude plugin install usage-meter@shubham-mods
+```
+
 ## License
 
 MIT

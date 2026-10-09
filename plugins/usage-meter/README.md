@@ -40,6 +40,16 @@ A toast appears when the session or weekly limit reaches 80% and again at 95%, o
 
 ## Install
 
+One line, from your terminal:
+
+```sh
+claude plugin marketplace add shubhamshinde245/claude-mods && claude plugin install usage-meter@shubham-mods
+```
+
+That installs for your user, so it works in both the Claude Code CLI and the Code tab of Claude Desktop. Start a new session (or restart Claude Desktop) to load it.
+
+Or from inside a Claude Code session:
+
 ```
 /plugin marketplace add shubhamshinde245/claude-mods
 /plugin install usage-meter@shubham-mods
