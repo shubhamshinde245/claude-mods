@@ -2,6 +2,10 @@
 
 A Claude Code mod that shows your plan usage and session spend in the band above the prompt.
 
+![usage-meter in a Claude Code session: session and weekly limits on the first line; model, effort, context, cost, tokens and an amber cache hit rate on the second](screenshot.png)
+
+The text below shows the same band with the pace projection and warning colours visible:
+
 ```
 Session 82% · resets in 2h 14m · ~48m to limit at this pace   Week 71% · resets Thu 9am
 Opus 5.5 (1M) (high effort) · Context 34% · $1.37 · in 12.4k · out 8.1k · cache 94% hit
